@@ -1,11 +1,10 @@
 # Draw My Thing Cheat
-You can use this tool from http://croutonix.github.io/dmtcheat/. The goal of this project is to provide an easy way to get pretty good at Draw my thing or similar games on Mineplex or The Hive.
+You can use this tool from http://detectiveandrew.github.io/dmtcheat/. The goal of this project is to provide an easy way to get pretty good at Guess The Build.
 
 # Newly added features
 - Changed the way to submit missing words
 - Clear input button
 - Complete rewrite of the tool including new UI
-- Multi-server support: I added The Hive server, but the word list still needs a lot of work, feel free to help! You can suggest me new servers but you must provide the word list.
 - Ability to search for more than one word
 
 # Contribute
