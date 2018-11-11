@@ -1,4 +1,4 @@
-# Draw My Thing Cheat
+# Guess The Build Cheat
 You can use this tool from http://detectiveandrew.github.io/dmtcheat/. The goal of this project is to provide an easy way to get pretty good at Guess The Build.
 
 # Newly added features
