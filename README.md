@@ -1,5 +1,5 @@
 # Guess The Build Cheat
-You can use this tool from http://detectiveandrew.github.io/dmtcheat/. The goal of this project is to provide an easy way to get pretty good at Guess The Build.
+You can use this tool from http://detectiveandrew.github.io/guessit/. The goal of this project is to provide an easy way to get pretty good at Guess The Build.
 
 # Newly added features
 - Changed the way to submit missing words
