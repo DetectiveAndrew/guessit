@@ -5,7 +5,7 @@ var servers = [
 		wordListFile: "./wordlist-hypixel.txt",
 		defaultWordCount: 1,
 		defaultWordLength: [[5], [5, 4], [3, 2, 4]],
-	},
+	}
 	// You can add more servers if you want, they will appear in the list automatically
 ]
 
@@ -38,7 +38,7 @@ var clearInputBtn;
 var missingWordDiv;
 
 /**
-	Load word lists from all server and find max word count, 
+	Load word lists from all server and find max word count,
 	min/max possible lengths for each word count
 */
 function loadWordLists() {
@@ -54,7 +54,7 @@ function loadWordLists() {
 			}
 		};
 		rawFile.send(null);
-		
+
 		// Find max and min
 		servers[s].maxWordCount = 1;
 		var max = [];
@@ -67,7 +67,7 @@ function loadWordLists() {
 				min[i].push(100);
 			}
 		}
-		
+
 		var word;
 		var parts;
 		var wordCount;
@@ -85,11 +85,11 @@ function loadWordLists() {
 				if (length > max[wordCount-1][j]) max[wordCount-1][j] = length
 			}
 		}
-		
+
 		servers[s].minWordLength = min;
 		servers[s].maxWordLength = max;
 	}
-	
+
 	console.log(servers);
 }
 
@@ -331,7 +331,7 @@ function copyToClipboard(text) {
 function main() {
 	// Load server word lists
 	loadWordLists();
-	
+
 	// Server dropdown, add servers to list
 	var serverDropdown = document.getElementById("server-dropdown");
 	for (var i = 0; i < servers.length; i++) {
